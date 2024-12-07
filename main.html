@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <button onclick="
+    player = 'Rock';
+    console.log(`Player choice: ${player}`);
+    if (computerChoice == 'Paper'){
+        alert('You have lost');
+    }
+    else if (computerChoice == 'Rock'){
+        alert('You draw');
+    }
+    else{
+        alert('You have won!!');
+    }
+    ">Rock</button>
+    <button onclick="
+    player = 'Paper';
+    console.log(`Player choice: ${player}`);
+    if (computerChoice == 'Scissors'){
+        alert('You have lost');
+    }
+    else if (computerChoice == 'Rock'){
+        alert('You have won!!');
+    }
+    else{
+        alert('You draw');
+    }
+    ">Paper</button>
+    <button onclick="
+    player = 'Scissors';
+    console.log(`Player choice: ${player}`);
+    if (computerChoice == 'Paper'){
+        alert('You have won!!');
+    }
+    else if (computerChoice == 'Rock'){
+        alert('You have lost');
+    }
+    else{
+        alert('You draw');
+    }
+    ">Scissors</button>
+</body>
